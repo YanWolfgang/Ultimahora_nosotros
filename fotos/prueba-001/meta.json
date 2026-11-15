@@ -1,0 +1,28 @@
+[
+  {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Example.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Example.jpg",
+    "autor": "Own work",
+    "licencia": "Public domain",
+    "licencia_url": "",
+    "descripcion": "Please use a more precise name for your image.",
+    "origen": "File:Example.jpg",
+    "archivo": "01.jpg",
+    "ancho": 172,
+    "alto": 178,
+    "credito": "Foto: Own work / Public domain"
+  },
+  {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Cerro_de_la_Silla.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Cerro_de_la_Silla.jpg",
+    "autor": "Nathaniel C. Sheetz",
+    "licencia": "CC BY-SA 3.0",
+    "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "descripcion": "A photograph of Cerro de la Silla, a mountain in Monterrey, Mexico.",
+    "origen": "https://commons.wikimedia.org/wiki/File:Cerro_de_la_Silla.jpg",
+    "archivo": "02.jpg",
+    "ancho": 1984,
+    "alto": 1488,
+    "credito": "Foto: Nathaniel C. Sheetz / CC BY-SA 3.0"
+  }
+]
