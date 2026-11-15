@@ -1,0 +1,5 @@
+buscar: Copa Airlines Boeing 737-800 Miami International Airport
+buscar: UPS Airlines Boeing 767 Miami
+buscar: Miami International Airport aerial
+buscar: Miami International Airport taxiway
+buscar: Copa Airlines Boeing 737-800 HP
