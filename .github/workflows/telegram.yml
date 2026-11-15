@@ -1,0 +1,34 @@
+name: telegram
+on:
+  push:
+    branches: [main]
+    paths: ["envios/**"]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: telegram
+  cancel-in-progress: false
+jobs:
+  enviar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install --quiet requests
+      - run: python tools/enviar_telegram.py
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      - name: Marcar enviados
+        run: |
+          git config user.name "nosotros-telegram-bot"
+          git config user.email "nosotros-telegram-bot@users.noreply.github.com"
+          git add -A envios
+          git diff --cached --quiet && exit 0
+          git commit -m "telegram: $(date -u +%Y%m%dT%H%M%SZ)"
+          for i in 1 2 3; do git pull --rebase -q origin main && git push -q origin HEAD:main && exit 0; sleep 5; done
+          exit 1
