@@ -33,7 +33,20 @@ def enviar(carpeta):
         for p in partes(open(msg, encoding="utf-8").read().strip()):
             requests.post(f"{API}/sendMessage", data={"chat_id": CHAT, "text": p, "disable_web_page_preview": "true"}, timeout=60).raise_for_status()
 
+def descubrir_chat():
+    """Sin TELEGRAM_CHAT_ID: lee los últimos mensajes que recibió el bot y anota los chats en envios/CHATS.txt."""
+    r = requests.get(f"{API}/getUpdates", timeout=60); r.raise_for_status()
+    chats = {}
+    for u in r.json().get("result", []):
+        m = u.get("message") or u.get("channel_post") or u.get("my_chat_member") or {}
+        c = m.get("chat") or {}
+        if c: chats[c["id"]] = c.get("title") or " ".join(x for x in (c.get("first_name"), c.get("last_name")) if x) or c.get("username", "")
+    txt = "\n".join(f"{k}  {v}" for k, v in chats.items()) or "Sin mensajes. Mándale cualquier mensaje al bot y vuelve a correr."
+    open("envios/CHATS.txt", "w", encoding="utf-8").write(txt + "\n"); print(txt)
+
 def main():
+    if TOKEN and not CHAT:
+        descubrir_chat(); return
     if not TOKEN or not CHAT:
         print("Faltan los secrets TELEGRAM_BOT_TOKEN y TELEGRAM_CHAT_ID"); sys.exit(1)
     for d in sorted(os.listdir("envios")):
