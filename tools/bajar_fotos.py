@@ -4,6 +4,7 @@ Cada renglón puede ser:
   - una página de Commons: https://commons.wikimedia.org/wiki/File:Nombre.jpg
   - un título de Commons:  File:Nombre.jpg
   - cualquier URL directa de imagen (sin metadatos de licencia)
+  - buscar: <términos>   baja hasta 4 candidatas de Commons para esa búsqueda
 Renglones vacíos o que empiezan con # se ignoran.
 Al terminar, el pedido se mueve a pedidos/hecho/.
 """
@@ -52,6 +53,11 @@ def info_commons(titulo):
         "descripcion": v("ImageDescription")[:300],
     }
 
+def buscar(terminos, n=4):
+    r = get(API, params={"action": "query", "format": "json", "list": "search", "srsearch": terminos + " filetype:bitmap",
+                         "srnamespace": 6, "srlimit": n * 2})
+    return [x["title"] for x in r.json()["query"]["search"] if re.search(r"\.(jpe?g|png|webp|tiff?)$", x["title"], re.I)][:n]
+
 def procesar(linea, destino, n):
     t = titulo_commons(linea)
     meta = info_commons(t) if t else {"url": linea, "pagina": linea, "autor": "", "licencia": "", "licencia_url": "", "descripcion": ""}
@@ -60,6 +66,8 @@ def procesar(linea, destino, n):
     im = im.convert("RGB"); im.thumbnail((MAX, MAX))
     nombre = f"{n:02d}.jpg"; im.save(os.path.join(destino, nombre), "JPEG", quality=92)
     meta.update({"archivo": nombre, "ancho": im.width, "alto": im.height})
+    if meta["autor"].lower() in ("own work", "trabajo propio", ""):
+        meta["autor"] = meta["autor"] or ""
     meta["credito"] = f"Foto: {meta['autor'] or 'Autor desconocido'} / {meta['licencia'] or 'licencia por confirmar'}"
     return meta
 
@@ -70,6 +78,16 @@ def main():
         pid = f[:-4]; destino = os.path.join("fotos", pid); os.makedirs(destino, exist_ok=True)
         lineas = [l.strip() for l in open(os.path.join("pedidos", f), encoding="utf-8")]
         lineas = [l for l in lineas if l and not l.startswith("#")]
+        expandidas = []
+        for l in lineas:
+            if l.lower().startswith("buscar:"):
+                try:
+                    expandidas += buscar(l.split(":", 1)[1].strip()) or [f"#sin resultados: {l}"]
+                except Exception as e:
+                    expandidas.append(f"#error en búsqueda {l}: {e}")
+            else:
+                expandidas.append(l)
+        lineas = [l for l in expandidas if not l.startswith("#")]
         resultado = []
         for n, l in enumerate(lineas, 1):
             try:
