@@ -1,4 +1,0 @@
-buscar: Chase bank branch sign
-buscar: JPMorgan Chase building New York
-buscar: Chase Bank logo storefront
-buscar: Bank of America branch
