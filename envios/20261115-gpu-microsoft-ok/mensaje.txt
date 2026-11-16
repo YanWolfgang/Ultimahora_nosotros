@@ -1,4 +1,4 @@
-🟣 EXPLICACIÓN (para aprobar, no publicada): Microsoft ideó usar tu GPU para entrenar IA
+✅ Publicada: MICROSOFT IDEÓ USAR TU GPU PARA ENTRENAR IA (explicación). Programada en IG y FB a las 20:36.
 
 💻 Microsoft ideó una forma de usar la tarjeta gráfica de tu computadora para entrenar inteligencia artificial mientras no la usas.
 
@@ -13,13 +13,9 @@ Es una solicitud, no una patente concedida ni un producto, y Microsoft no ha anu
 Fuente: Europa Press, KitGuru.
 #Microsoft #InteligenciaArtificial #GPU #Tecnología #Noticias
 
-THREADS:
-💻 Microsoft ideó usar la tarjeta gráfica de tu PC para entrenar IA mientras no la usas. Una solicitud de patente publicada el 5 de noviembre describe repartir microtareas entre equipos con capacidad libre y menciona créditos canjeables por software, acceso a IA o dinero. Aún no es un producto.
-
-Fuente: Europa Press, KitGuru.
-#Microsoft #InteligenciaArtificial #GPU
-
 Fuentes:
 https://www.infobae.com/america/agencias/2026/11/12/una-patente-de-microsoft-contempla-pagar-a-los-usuarios-por-usar-la-gpu-de-su-pc-para-entrenar-modelos-de-ia/
 https://www.kitguru.net/gaming/joao-silva/microsoft-explores-paying-users-for-idle-gpu-compute/
 https://fourweekmba.com/ai-microsoft-idle-gpu-patent-20-claims-none-on-paying-owners/
+
+https://app.metricool.com/planner/calendar?blogId=2974077&openWithPostUuid=4772246937376408086
