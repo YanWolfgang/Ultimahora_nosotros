@@ -1,5 +1,0 @@
-buscar: GeForce RTX graphics card
-buscar: Microsoft Redmond campus sign
-buscar: gaming PC RGB
-buscar: Satya Nadella
-buscar: data center server racks
