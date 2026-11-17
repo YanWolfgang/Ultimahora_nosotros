@@ -1,5 +1,0 @@
-buscar: Apple Park aerial
-buscar: Apple Store Mexico City
-buscar: Apple Store Fifth Avenue
-buscar: iPhone App Store screen
-buscar: Apple Infinite Loop headquarters
