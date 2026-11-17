@@ -1,4 +1,0 @@
-buscar: HSBC Canary Wharf tower
-buscar: CNN Center Atlanta
-buscar: computer code screen hacker
-buscar: IKEA store exterior
