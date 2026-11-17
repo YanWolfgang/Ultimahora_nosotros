@@ -1,0 +1,5 @@
+buscar: autopista Guanajuato
+buscar: caseta de cobro autopista México
+buscar: tractor maíz México
+buscar: Carretera Federal 57 Querétaro
+buscar: campo de maíz Jalisco
