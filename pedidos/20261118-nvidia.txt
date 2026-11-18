@@ -1,0 +1,4 @@
+buscar: Nvidia headquarters Santa Clara Endeavor
+buscar: Nvidia Voyager building
+buscar: Jensen Huang
+buscar: Nvidia GPU chip
