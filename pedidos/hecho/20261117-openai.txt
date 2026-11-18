@@ -1,4 +1,0 @@
-buscar: OpenAI headquarters San Francisco
-buscar: Rob Bonta
-buscar: San Francisco Superior Court Civic Center Courthouse
-buscar: server room data center
