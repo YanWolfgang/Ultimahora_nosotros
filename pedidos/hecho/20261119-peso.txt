@@ -1,5 +1,0 @@
-buscar: Banco de Mexico building Mexico City
-buscar: Mexican peso coins
-buscar: Mexican peso banknotes 500
-buscar: Marriner S. Eccles Federal Reserve Board Building
-buscar: casa de cambio Mexico
