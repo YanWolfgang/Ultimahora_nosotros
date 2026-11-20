@@ -1,6 +1,0 @@
-buscar: Eisenhower Executive Office Building
-buscar: White House north facade
-buscar: airport departure board delayed cancelled flights
-buscar: Sean Cairncross
-buscar: Server room data center
-buscar: The Pentagon aerial
