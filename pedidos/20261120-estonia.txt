@@ -1,0 +1,4 @@
+buscar: Narva Ivangorod fortress river border
+buscar: Narva border crossing checkpoint
+buscar: Koidula border checkpoint Estonia
+buscar: Estonia Russia border Narva bridge
