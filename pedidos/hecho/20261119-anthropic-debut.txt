@@ -1,4 +1,0 @@
-buscar: Wall Street sign New York
-buscar: New York Stock Exchange building
-buscar: Times Square Nasdaq night
-buscar: Anthropic
