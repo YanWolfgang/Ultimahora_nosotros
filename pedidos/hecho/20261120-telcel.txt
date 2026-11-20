@@ -1,5 +1,0 @@
-buscar: Telcel store Mexico
-buscar: Telcel building Mexico City
-buscar: Telcel antenna
-buscar: cell tower Mexico City
-buscar: Plaza Carso Mexico City
