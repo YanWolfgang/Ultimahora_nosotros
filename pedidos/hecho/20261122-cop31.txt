@@ -1,6 +1,0 @@
-buscar: COP31 Antalya
-buscar: Antalya Expo center
-buscar: coal power plant smokestacks
-buscar: Chris Bowen
-buscar: oil refinery flare
-buscar: UNFCCC COP plenary
