@@ -1,5 +1,0 @@
-buscar: BepiColombo
-buscar: BepiColombo spacecraft
-File:Mercury in color - Prockter07-edit1.jpg
-buscar: Mercury MESSENGER planet
-buscar: ESOC control room Darmstadt
