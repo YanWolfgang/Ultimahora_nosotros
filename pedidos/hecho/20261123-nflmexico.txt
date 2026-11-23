@@ -1,4 +1,0 @@
-buscar: Estadio Azteca
-buscar: Estadio Azteca NFL game
-buscar: San Francisco 49ers Mexico City 2022
-buscar: Estadio Azteca aerial
