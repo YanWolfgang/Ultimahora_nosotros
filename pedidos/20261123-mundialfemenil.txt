@@ -1,0 +1,5 @@
+buscar: Estadio Azteca aerial
+buscar: Estadio Azteca interior
+buscar: Estadio Akron Guadalajara
+buscar: Mexico women's national football team
+buscar: FIFA Women's World Cup trophy
