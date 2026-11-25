@@ -1,4 +1,0 @@
-buscar: Central Intelligence Agency headquarters Langley building
-buscar: Office of the Director of National Intelligence building
-buscar: National Geospatial-Intelligence Agency headquarters Springfield
-buscar: CIA Original Headquarters Building Langley
