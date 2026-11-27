@@ -1,0 +1,13 @@
+⚪ Sin noticia (vuelta 09:50 h): no se publicó nada.
+
+Portadas: no se pudo leer ninguna. Infobae México, Infobae América, Milenio, El Financiero, Expansión, Reuters y AP en español fallaron porque el permiso para abrir páginas no se respondió a tiempo en esta vuelta automática. Solo hubo búsqueda web con títulos, sin texto de las notas, así que no hubo forma de verificar con dos medios.
+
+Lo que apareció y se descartó:
+1. Línea 3 del Metro CDMX colapsada (Infobae): solo un título, sin segunda fuente legible; además es tema local de movilidad.
+2. Naufragio de un buque con 7 mil toneladas de combustible: hay un marinero muerto (tema vedado) y ya salió en el resumen de las 8:30.
+3. Tensión Trump y Putin, y señales de recesión en Argentina: ya salieron en el resumen de las 8:30 y no hay hecho nuevo verificable.
+4. Precio del dólar y del euro: no es llamativa.
+5. Seguridad y crimen en vivo (Infobae): violencia, tema vedado.
+
+Piezas del monitoreo hoy: 1 de 6 (Reserva del Reino Unido, 9:00).
+Limpieza: se borró del repo la pieza de la reserva del Reino Unido, ya publicada en IG y FB.
