@@ -1,0 +1,14 @@
+⚪ Sin noticia (vuelta 12:47 h): no se publicó nada.
+
+Portadas: se leyeron Infobae México (portada sin notas de hoy), UnoTV «Las de hoy» y los resúmenes de EFE del día (Infobae América y Swissinfo). No se pudieron leer Milenio, El Financiero, Expansión, AP en español, BBC Mundo y El País: el permiso para abrir páginas no se respondió a tiempo. Tampoco abrieron AA, France24 ni Morning Star.
+
+Lo más fuerte que se descartó:
+1. Australia aprueba ley que obliga a las redes a dejar apagar el algoritmo, con multas de hasta 5 % de su facturación global (TIME, AFP, Mumbrella): verificada, pero se aprobó el miércoles 25 y la primera nota es de hace unas 56 h. Pasa el límite de 48 h.
+2. Jennifer Barreto (Puerto Rico), primera mamá en ganar Miss Universo (CNN, Washington Post): coronada el 24 de noviembre, fuera de las 48 h.
+3. INEGI: la pobreza laboral baja a 30.5 %, su nivel más bajo desde 2005 (Excélsior, El Financiero): dentro del plazo, pero no pasa el filtro de WhatsApp.
+4. Banxico sube a 1.9 % su pronóstico del PIB 2026 (El Financiero): poco llamativa.
+5. Sheinbaum acusa de injerencia a la DEA por su línea de denuncias: ya hay pieza de la DEA programada hoy a las 16:00.
+6. Senador Inzunza gana más que la presidenta (El Universal): persona acusada, tema vedado.
+
+Piezas del monitoreo hoy: 1 de 6.
+Ojo: sigue fallando el permiso para abrir páginas en la tarea programada; mientras no quede aprobado de forma permanente, casi ninguna portada se puede leer.
