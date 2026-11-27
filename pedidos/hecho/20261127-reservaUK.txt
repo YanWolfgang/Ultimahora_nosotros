@@ -1,4 +1,0 @@
-buscar: Ministry of Defence Main Building London
-buscar: British Army soldiers parade London
-buscar: Union Jack flag London Whitehall
-buscar: Wes Streeting
