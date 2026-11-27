@@ -1,0 +1,11 @@
+⚪ Sin noticia (vuelta 15:38 h): no se publicó nada.
+
+Portadas: no se pudo leer ninguna. Infobae México, Infobae América, Milenio, El Financiero, Expansión y Reuters fallaron porque esta vuelta no tuvo permiso para abrir páginas web (la solicitud de acceso no se respondió). Solo funcionó la búsqueda web, que da titulares sin el texto de las notas, así que no hubo forma de verificar cifras ni detalles con dos medios.
+
+Lo más fuerte que apareció en la búsqueda (descartado):
+1. Sheinbaum dice que no irá a la FIL de Guadalajara y la llama «espacio de la derecha» (Latinus): solo un medio visible y no se pudo leer la nota.
+2. Sheinbaum: 90 puntos de la negociación comercial con EU ya resueltos (PorEsto, Beloud): sin medio serio independiente legible ni cifras verificables.
+3. SRE presentó queja por el canal de denuncias de la DEA (Yahoo): el tema de la DEA ya está programado hoy a las 16:00 en Metricool.
+4. Clientes llevan objetos insólitos a Cinépolis por palomitas (Viva la Noticia): sin dos medios serios.
+
+Hoy van 2 de 6 piezas del monitoreo (Reino Unido 09:00 y Márquez 15:00). Se limpió del repo la carpeta de Márquez, ya publicada en IG y FB.
