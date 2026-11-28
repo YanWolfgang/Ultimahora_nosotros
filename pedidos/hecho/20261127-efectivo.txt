@@ -1,5 +1,0 @@
-buscar: Pemex gasolinera
-buscar: caseta de cobro autopista México
-buscar: plaza de cobro Palmillas
-buscar: Pemex gas station Mexico pump
-buscar: peso mexicano billetes
